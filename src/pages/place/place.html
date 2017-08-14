@@ -1,0 +1,15 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>Tempat</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <sebm-google-map [latitude]="lat" [longitude]="lng">
+
+    </sebm-google-map>
+    <button ion-button block (click)="onDismiss()">Tutup</button>
+</ion-content>
